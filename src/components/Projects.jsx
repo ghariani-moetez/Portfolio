@@ -39,7 +39,7 @@ function Projects() {
       desc: 'A mobile application built with Java that enables users to manage contacts, perform real-time CRUD operations using Firebase, and utilize geolocation features to map contact addresses.',
       tech: ['Java', 'Firebase', 'Maps API'],
       gradient: 'from-cyan-500 to-blue-500',
-      link: 'https://github.com/ghariani-moetez/contact-manager',
+      link: '#',
     },
     {
       img: project3,
@@ -47,7 +47,7 @@ function Projects() {
       desc: 'A web application to manage employees, built with Angular for the frontend and Spring Boot for the backend. Supports CRUD operations, real-time updates, and secure data storage using a RESTful API.',
       tech: ['Spring Boot', 'API', 'Angular'],
       gradient: 'from-green-500 to-emerald-500',
-      link: 'https://github.com/ghariani-moetez/city-explorer',
+      link: 'https://github.com/ghariani-moetez/spring4_back-end',
     },
     {
       img: project4,
@@ -55,7 +55,7 @@ function Projects() {
       desc: 'A Python-based tool to scrape real estate listings, store them in a MySQL database, and visualize insights using Power BI.',
       tech: ['Python', 'Power BI', 'MySQL'],
       gradient: 'from-yellow-500 to-orange-500',
-      link: 'https://github.com/ghariani-moetez/portfolio',
+      link: '#',
     },
   ];
 
