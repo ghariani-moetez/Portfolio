@@ -10,8 +10,8 @@ export default async function handler(req, res) {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: process.env.EMAIL_USER, // Set in Vercel dashboard
-      pass: process.env.EMAIL_PASS  // Set in Vercel dashboard
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS
     }
   });
 
@@ -30,7 +30,7 @@ Message: ${message}
     await transporter.sendMail(mailOptions);
     res.status(200).json({ message: 'Email sent successfully!' });
   } catch (error) {
-    console.error('Email error:', error);
-    res.status(500).json({ message: 'Failed to send email.' });
+    console.error('Email error:', error); // This will show up in Vercel's function logs
+    res.status(500).json({ message: 'Failed to send email.', error: error.toString() });
   }
 }
