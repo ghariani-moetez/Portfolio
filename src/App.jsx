@@ -66,7 +66,7 @@ function App() {
               Contact Me
             </a>
                <a
-  href="/Cv.pdf"
+  href="/cv_vf.pdf"
   download="Moetez_Ghariani_CV.pdf"
               className="inline-block bg-gradient-to-r from-slate-700 to-gray-700 hover:from-slate-600 hover:to-gray-600 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg hover:shadow-slate-500/25 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-base sm:text-lg"
     target="_blank"
